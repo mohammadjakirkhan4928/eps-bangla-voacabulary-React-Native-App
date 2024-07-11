@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "VocabularyApp",
-    "slug": "VocabularyApp",
+    "name": "Eps-Bangla Vocabulary",
+    "slug": "eps-bangla-vocabulary",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -12,16 +12,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jakirkhan.epsbanglavocabulary"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jakirinc.eps_topic_vocabulary"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a9cb071d-3e17-4cac-bc91-e3d2a7607a2f"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "124cce33-243b-4ee4-b797-cc0829ecd7ac"
+      }
     }
   }
 }
